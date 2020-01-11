@@ -1,0 +1,4 @@
+{% for foo in permission_menu_list %}
+    <p class="{{ foo.class }}"><i class="{{ foo.icon }}" aria-hidden="true"></i><a
+            href="{{ foo.url }}">{{ foo.title }}</a></p>
+{% endfor %}
